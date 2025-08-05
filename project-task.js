@@ -47,11 +47,11 @@ but it contains multiple syntax errors that prevent it from being parsed.
 const invalidBookingJSON = `
 {
   "hotelName": "Grand City Hotel",
-  "checkInDate": "2024-05-15"
+  "checkInDate": "2024-05-15", 
   "checkOutDate": "2024-05-20",
   "guests": [
     {
-      name: "Alice Johnson",
+      "name": "Alice Johnson",
       "age": 30,
       "email": "alice.johnson@example.com"
     },
@@ -64,7 +64,7 @@ const invalidBookingJSON = `
   "roomDetails": {
     "type": "Suite",
     "pricePerNight": 200,
-    "amenities": ["WiFi", "Breakfast", "Parking",]
+    "amenities": ["WiFi", "Breakfast", "Parking"]
   }
 }
 `;
@@ -99,3 +99,7 @@ const invalidBookingJSON = `
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
 */
+/* list of corrections
+line 50 added missing comma
+line 54 added missing quotes around the key
+line 64 removed extra comma at the end
