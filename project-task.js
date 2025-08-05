@@ -91,13 +91,14 @@ const invalidBookingJSON = `
 💬 Reflect and answer the following:
 
 1️⃣ What tools or techniques did you use to identify the errors?
-
+I compared the syntax to the rules and similar codes in the lesson and then i used a validator to check my corrections
 2️⃣ How did you confirm that your corrected JSON file was valid?
-
+I used a validator
 3️⃣ Which errors were the most difficult to spot? Why?
-
+I didnt originally correct "undefined" I think in the context of the code it just didnt stick out to me like an error as easily as syntax errors that were written right next to proper syntax that i could compare it to
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
+   continuing to use validators and studying
 */
 /* list of corrections
 line 50 added missing comma
