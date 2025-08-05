@@ -57,7 +57,7 @@ const invalidBookingJSON = `
     },
     {
       "name": "Bob Smith",
-      "age": undefined,
+      "age": null,
       "email": "bob.smith@example"
     }
   ],
@@ -103,3 +103,5 @@ const invalidBookingJSON = `
 line 50 added missing comma
 line 54 added missing quotes around the key
 line 64 removed extra comma at the end
+list of validator corrections
+line 60 changed undefined to null */
